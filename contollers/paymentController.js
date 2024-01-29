@@ -149,7 +149,7 @@ export const paymentVerification = async (req, res) => {
                   
                  deleteVistuserByEmail(email);
             res.redirect(
-            `https://backendkgv.vercel.app/paymentsuccess?reference=${razorpay_payment_id}`
+            `https://kgv-final2.vercel.app/paymentsuccess?reference=${razorpay_payment_id}`
             );
             } else {
 
